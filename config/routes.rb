@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+
+  # scope "(:locale)", locale: /en|vi/ do 
+  #   root "static_pages#home" 
+  # end
+  # Ex:- scope :active, -> {where(:active => true)}
+
   root 'static_pages#home'
 
   get 'static_pages/home'

@@ -1,14 +1,13 @@
-<% provide(:title, "Help") %>
+<% provide(:title, t(".title")) %>
 
 <h1><%= yield(:title) %></h1>
 <p>
-  Click this
-  <a href="http://localhost:3000">Homepage</a>
-  to way back to home
+  <a href="http://localhost:3000"><%= t(".ref_home") %></a>
+  <%= t(".ref_home_desc") %>
 
   <br />
 
-  Or this
-  <a href="http://localhost:3000/static_pages/home">Static Home</a>
-  to go to static home page
+  <a href="http://localhost:3000/static_pages/home"><%= t(".ref_static_home") %></a>
+  <%= t(".ref_static_home_desc") %>
 </p>
+

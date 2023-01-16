@@ -30,4 +30,23 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  static_pages: 
+    home:
+      title: Home 
+      ref_home: Homepage
+      ref_help: Help
+      ref_home_desc: Click this to way back to home
+      ref_help_desc: Or this to go to help page
+    help: 
+      title: Help 
+      ref_home: Homepage
+      ref_static_home: Static Home
+      ref_home_desc: Click this to way back to home
+      ref_static_home_desc: Or this to go to static home page
+    about: 
+      title: About 
+      ref_home: Homepage
+      ref_help: Help
+      ref_home_desc: Click this to way back to home
+      ref_help_desc: Or this to go to help page
+  

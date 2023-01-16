@@ -1,0 +1,13 @@
+<% provide(:title, t(".title")) %>
+
+<h1><%= yield(:title) %></h1>
+<p>
+  <a href="http://localhost:3000"><%= t(".ref_home") %></a>
+  <%= t(".ref_home_desc") %>
+
+  <br />
+
+  <a href="http://localhost:3000/static_pages/home"><%= t(".ref_static_home") %></a>
+  <%= t(".ref_static_home_desc") %>
+</p>
+

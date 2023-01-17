@@ -19,7 +19,7 @@ class UsersController < ApplicationController
       flash[:success] = "Successfully created user."
       redirect_to @user   #same as user_url(@user)
     else
-      render 'new'
+      render :new
     end
   end
 

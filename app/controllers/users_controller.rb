@@ -1,7 +1,10 @@
 class UsersController < ApplicationController
   
   def show
-    @user = User.find(params[:id])
+    @user = User.find_by(id: params[:id])
+    if @user.nil?
+      flash[:notice] = "User not found"
+    end
   end
   
   def new

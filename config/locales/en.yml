@@ -43,4 +43,7 @@ en:
   users:
     new:
       title: Sign up
+  sessions:
+    new:
+      title: Login
   

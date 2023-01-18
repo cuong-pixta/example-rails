@@ -50,4 +50,7 @@ en:
       title: Edit user
     index:
       title: All users
+  user_mailer:
+    account_activation:
+      content: Welcome to the Sample App! Click on the link below to activate your account
   

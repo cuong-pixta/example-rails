@@ -33,3 +33,9 @@ add col to model
 ```
 rails generate migration add_password_digest_to_users password_digest:string
 ```
+
+generate uploader
+
+```bash
+rails generate uploader Picture
+```

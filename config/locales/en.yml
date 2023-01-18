@@ -46,4 +46,8 @@ en:
   sessions:
     new:
       title: Login
+    edit:
+      title: Edit user
+    index:
+      title: All users
   
